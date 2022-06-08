@@ -7,5 +7,5 @@ Participantes
 - Marcos William
 - Maria Laura
 
-- Preview -
+# Preview
 ![image](https://user-images.githubusercontent.com/97291537/172508773-e2cdde9c-6212-4f40-8755-245d96950d77.png)
