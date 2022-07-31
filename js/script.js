@@ -28,6 +28,7 @@ const loop = setInterval(() => {
     mario.style.marginLeft = "50px";
 
     alert("Você perdeu, bobinho.");
+    window.location.href= "http://127.0.0.1:5500/index.html"
 
     clearInterval(loop);
   }
