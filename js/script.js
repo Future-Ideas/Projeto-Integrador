@@ -2,6 +2,13 @@
 const mario = document.querySelector(".mario");
 const pipe = document.querySelector(".pipe");
 
+const goBack = () => {
+  history.back();
+};
+const refreshJogada = () => {
+  location.reload();
+};
+
 const jump = () => {
   mario.classList.add("jump");
 
@@ -27,7 +34,7 @@ const loop = setInterval(() => {
     mario.style.width = "75px";
     mario.style.marginLeft = "50px";
 
-    alert("Você perdeu, bobinho.");
+    // alert("Você perdeu, bobinho.");
 
     clearInterval(loop);
   }

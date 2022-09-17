@@ -1,80 +1,45 @@
-body {
-  margin: 0%;
-  padding: 0%;
-  box-sizing: border-box;
-  text-align: center;
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../assets/real-background.png");
 }
 
-a {
-  text-align: center;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: #fff;
-  padding: 10%;
-  font-size: 40px;
-  font-family: cursive, sans-serif;
-}
-
-.body {
+.titlePage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  height: 100%;
-  background: url("../assets/real-background.png") no-repeat fixed center;
 }
-
-section {
-  justify-content: center;
-  align-items: center;
-  align-self: center;
-}
-
-.imgContainer {
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  align-self: center;
-  max-width: 100%;
-  max-height: 100%;
-  padding: 150px;
-}
-
-.title,
-.titleM {
-  padding: 10px;
-}
-
-.titleM {
-  margin-left: 20px;
+.titlePage h1 {
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+  font-size: 4.5rem;
 }
 
 .btnContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100%;
 }
+
 button {
-  justify-content: center;
-  /* margin: 0 50%; */
-  width: 20%;
-
-  transition-duration: 0.4s;
-  display: inline-block;
-  padding: 15px 25px;
-  font-size: 24px;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  outline: none;
+  background-color: #d92929;
+  border-radius: 8px;
   color: #fff;
-  background-color: #e52127;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px #999;
-}
-
-button:hover {
-  background-color: #3e8e41;
-}
-
-button:active {
-  background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
+  cursor: pointer;
+  font-size: 2em;
+  max-width: 300px;
+  padding: 15px;
+  width: 100%;
+  margin: 100px 0;
 }
